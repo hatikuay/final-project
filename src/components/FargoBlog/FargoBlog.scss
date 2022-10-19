@@ -1,0 +1,15 @@
+.fargo-blog {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  .blog {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+  }
+}

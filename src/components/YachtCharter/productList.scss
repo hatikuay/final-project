@@ -1,0 +1,166 @@
+.product {
+  margin-top: 10px;
+
+  .product-list {
+    h3 {
+      margin: 30px 120px 15px 5px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .yacht-box {
+      border: 1px solid #d8d8d8;
+      margin: 10px 5px 15px;
+      padding: 20px;
+      border-radius: 4px;
+
+      .yacht-row {
+        display: flex;
+        gap: 4%;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        a {
+          max-width: 33.3%;
+          padding-left: 5px;
+
+          img {
+            width: 100%;
+            border-radius: 4px;
+          }
+        }
+
+        .text-container {
+          margin-top: 5px;
+          max-width: 33.3%;
+
+          h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+          }
+
+          p {
+            color: #666;
+            font-size: .9rem;
+          }
+        }
+
+        .price-box {
+          margin-top: 10px;
+          margin-left: 22%;
+          text-align: right !important;
+          max-width: 25%;
+
+          .price-header {
+            font-size: 1rem;
+
+            .price-discounted {
+              text-decoration: line-through;
+              opacity: .65;
+              color: #ff6240;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+
+            .price-discounted-percentage {
+              background-color: red;
+              color: #fff;
+              padding: 0 5px;
+              margin-left: 5px;
+              border-radius: 4px;
+            }
+          }
+
+          .price {
+            font-size: 1.5rem;
+            padding-top: 5px;
+            color: #ff6240;
+            font-weight: 600;
+            margin-bottom: 0;
+          }
+
+          .price-per {
+            font-size: 0.9rem;
+            padding-right: 10px;
+            color: #666666;
+            font-weight: 500;
+            margin-bottom: 0;
+          }
+
+          button {
+            margin-top: 1rem;
+            height: 2.5rem;
+            width: 7rem;
+            border-radius: 20px;
+            border: none;
+            background: #ff6611;
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  .custom-date-form {
+    margin: 30px 5px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    padding: 20px 40px 1px;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+
+    }
+
+    .input-row {
+      display: flex;
+      flex-direction: column;
+
+      .row {
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+
+        .input-group {
+          width: 100%;
+
+          input {
+            padding: 7px 14px;
+            font-weight: 600;
+            color: #666666;
+            margin-top: .8rem;
+            width: 85%;
+            border-radius: 2px;
+            border: 1px solid #d8d8d8;
+            background-color: #fff;
+            font-size: .8rem;
+          }
+
+          textarea {
+            margin-top: .5rem;
+            width: 95%;
+            height: 120px;
+            resize: none;
+          }
+        }
+      }
+    }
+
+    button {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background: #ff6240;
+      color: #fff;
+      height: 3rem;
+      border-radius: 4px;
+      border: none;
+      min-width: 120px;
+      font-weight: 500;
+    }
+  }
+}

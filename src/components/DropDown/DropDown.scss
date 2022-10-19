@@ -1,0 +1,36 @@
+.dropdown {
+  width: 60%;
+  margin-bottom: 10px;
+
+  .title-container {
+    display: flex;
+    border: solid 1px lightgray;
+    background-color: #fafafa;
+    padding: 18px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+
+    img {
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      right: 22%;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      min-height: 36px;
+    }
+  }
+
+  .content {
+    border: solid 1px lightgray;
+    margin-top: -2px;
+    padding: 18px 12px;
+    background-color: white;
+  }
+}

@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #00bab1;
+  padding: 16px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    color: white;
+    & > div {
+      width: 180px;
+      padding: 16px;
+    }
+    .left-side {
+      border-right: solid 1px white;
+      & > p {
+        margin: 10px 0;
+      }
+      hr {
+        border: solid 1px white;
+      }
+      .tel-no {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+    .right-side {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        list-style: none;
+        padding: 0;
+        a {
+          cursor: pointer;
+          text-decoration: none;
+          color: white;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  li {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
